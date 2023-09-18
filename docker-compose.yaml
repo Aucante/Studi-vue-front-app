@@ -1,0 +1,11 @@
+version: "3"
+services:
+  front:
+    build:
+      dockerfile: dev.dockerfile
+      context: .
+    ports:
+      - "5173:5173"
+    volumes:
+      - "./src:/app/src"
+    command: npm run dev -- --host

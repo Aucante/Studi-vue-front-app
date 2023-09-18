@@ -12,7 +12,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation test</template>
+    <template #heading>Documentation tests</template>
 
     Vue’s test
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
