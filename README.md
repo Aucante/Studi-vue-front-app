@@ -1,7 +1,6 @@
 # Studi-vue-front
 
 ## Docker
-
 ```sh
 docker build -t studi-vue .
 ```
